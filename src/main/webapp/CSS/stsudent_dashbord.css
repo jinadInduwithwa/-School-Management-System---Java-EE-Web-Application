@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+/* Add your custom styles here */
+
+/* Main section styles */
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Main banner styles */
+.main-banner {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-banner .date-dashboard {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.main-banner h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.main-banner .msg {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.main-banner .banner-img img {
+    max-width: 100%;
+}
+
+/* Dashboard container styles */
+.dashboard-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Homework section styles */
+.homework-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.homework-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.homework-list {
+    list-style: none;
+    padding: 0;
+}
+
+.homework-item {
+    margin-bottom: 20px;
+}
+
+.homework-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.homework-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.view-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}

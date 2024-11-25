@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-header {
+  width: 100%;
+  height: 69px;
+  flex-shrink: 0;
+  background: #1360ee;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 1px 2px 3px 2px;
+  z-index: 10000;
+}
+
+.nav > ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  display: inline-block;
+}
+
+.nav > ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.nav > ul li a:hover {
+  color: #000;
+  border-radius: 8px;
+}
+
+.loginBtn {
+  width: 121.821px;
+  height: 27px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #090808;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  margin-right: 100px;
+}
+
+.loginBtn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.logoName {
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 30px;
+  display: inline-block;
+  margin-right: 413px;
+}
+
+.fa-solid {
+  color: white;
+  padding-right: 2px;
+}
+
+.fa-regular {
+  color: white;
+  padding-right: 2px;
+}
+
+/* End of the navigation bar */
+
+.hero-section {
+  background: #f5f5f5;
+  width: 100%;
+  height: 657px;
+  flex-shrink: 0;
+  background: url(../Assert/Main-page/hero-banner.png),
+    lightgray 0px 0px / 100% 143.275% no-repeat;
+}
+
+/* end of the hero-section */
+
+/* Start of the main section */
+
+.ourteacherH1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+}
+
+.container-teachers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.teacher {
+  width: 259px;
+  height: 398px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #dee9f6;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+  padding: 30px 0 0 0;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.teacher-img {
+  width: 236px;
+  height: 258px;
+  flex-shrink: 0;
+  
+  box-shadow: 7px 4px 4px -5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.teacher-info > h2 {
+  margin: 20px 0 0 0;
+  color: #000;
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.teacher-info > p {
+  color: #000;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.event-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 323px;
+}
+
+
+.event-card > h2 {
+  color: #000;
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.details-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.event-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background: url(../Assert/Main-page/Students-and-elephants-scaled-e1691067651734\ 1.png),
+    lightgray 0px -10.284px / 100% 137.042% no-repeat;
+  box-shadow: 7px 4px 4px -5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* Start of the footer section */
+
+footer {
+  background-color: #1360ee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 2px solid black;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 17px;
+}
+
+.footer-links a:hover {
+  color: #ccc;
+}
+
+/* Start of the footer section */
+
+/* End of the main section */

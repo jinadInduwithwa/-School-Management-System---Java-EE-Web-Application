@@ -1,0 +1,281 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 1041px;
+  height: 578px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 5px 7px 13px 9px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.login-image {
+  background-image: url(../Assert/Login/login-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 488px;
+  height: 578px;
+  flex-shrink: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 553px;
+  height: 578px;
+  background-color: #fff;
+  flex-shrink: 0;
+  padding-left: 63px;
+}
+
+.login-form h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 104px;
+}
+
+.login-form p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 400px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 21px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-form a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.donthacc {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* end of the login css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 98%;
+  height: 578px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 5px 7px 13px 9px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1022px;
+  height: 578px;
+  background-color: #fff;
+  flex-shrink: 0;
+  padding-left: 63px;
+}
+
+.signup-form h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 104px;
+  text-align: center;
+}
+
+.signup-form p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.signup-form div {
+  display: inline-block;
+}
+
+.signup-form button {
+  width: 400px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 21px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.donthacc {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.input-field > select {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.ahan {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.signup-image {
+  background-image: url(../Assert/Login/SIGNUP.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 488px;
+  height: 578px;
+  flex-shrink: 0;
+}
+
+.waiting-for-admin-approvers {
+  background-color: #ffffff;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 1041px;
+  height: 578px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.waiting-for-admin-approvers h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  margin-right: 104px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 250px;
+  position: relative;
+  z-index: 200;
+}
+
+.waiting-for-admin-approvers p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 200;
+}
+
+.waiting-for-admin-approvers button {
+  width: 400px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 254px;
+  position: relative;
+  z-index: 200;
+}
+
+.waiting-for-admin-approvers button:hover {
+  background-color: #0056b3;
+}
+
+.waiting-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 488px;
+  height: 578px;
+  flex-shrink: 0;
+  margin-bottom: 200px;
+  position: relative;
+  bottom: 121px;
+  left: -37px;
+}
